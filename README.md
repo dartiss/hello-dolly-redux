@@ -1,6 +1,6 @@
 # Hello Dolly Redux
 
-<img src="https://plugins.svn.wordpress.org/hello-dolly/assets/icon-128x128.jpg" align="left">"This is not just a plugin, it symbolizes the hope and enthusiasm of an entire generation summed up in two words sung most famously by Louis Armstrong."
+<img src="https://artiss.blog/wp-content/uploads/2023/05/icon-128x128-1.jpg" align="left">"This is not just a plugin, it symbolizes the hope and enthusiasm of an entire generation summed up in two words sung most famously by Louis Armstrong."
 
 Written by Matt Mullenweg, the co-founder of WordPress, Hello Dolly is included with all WordPress installations as a demonstration of how to write a simple plugin. However, 15 years later, it's no longer demonstrating the best practices that are now in use.
 
