@@ -1,3 +1,5 @@
+/* Default style output */
+
 #dolly {
 	float: right;
 	padding: 5px 10px;
@@ -5,12 +7,21 @@
 	font-size: 12px;
 	line-height: 1.6666;
 }
+
+/* For right-to-left (RTL) output, float the text to the left */
+
 .rtl #dolly {
 	float: left;
 }
+
+/* Hide the output when in the block editor */
+
 .block-editor-page #dolly {
 	display: none;
 }
+
+/* For small displays don't justify or pad the output */
+
 @media screen and (max-width: 782px) {
 	#dolly,
 	.rtl #dolly {
