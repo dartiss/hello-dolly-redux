@@ -16,28 +16,11 @@ This is not just a plugin, it symbolizes the hope and enthusiasm of an entire ge
 
 Thanks to Sanjib Ahmad for the artwork.
 
-== Installation ==
-
-World Domination can be found and installed via the Plugin menu within WordPress administration (Plugins -> Add New). Alternatively, it can be downloaded from WordPress.org and installed manually...
-
-1. Upload the entire `world-domination` folder to your `wp-content/plugins/` directory.
-2. Activate the plugin through the 'Plugins' menu in WordPress administration.
-
-Voila! It's ready to go.
-
 == Frequently Asked Questions ==
 
-= Hey! My dashboard figure is different to the one shown on W3Techs =
+= Why is Hello Dolly included with WordPress? =
 
-For performance reasons I cache the dashboard information for one week so, if the market figure changes in the meantime, you will get this discrepancy. If you find this keeps happening, please let me know and I’ll look at refreshing the cache more regularly.
-
-= I don't like the graphic on the dashboard that shows the percentage. Can I switch it off? =
-
-Yes you can! Head to Settings -> General in WP Admin and find the tickbox for this.
-
-= The dashboard graphic keeps changing color! =
-
-One of the parameters to generate the image is a hash - I pass a different one into it based on the current date, so will change daily.
+This plugin is included to demonstrate how easy it is to write plugins for WordPress - one of the many reasons why WordPress is so loved as a CRM. You are free to disable and/or uninstall it but, if you've never written a plugin before, please take a look at the code and consider writing something of your own.
 
 == Screenshots ==
 
@@ -55,6 +38,7 @@ One of the parameters to generate the image is a hash - I pass a different one i
 * Lots of additional comments in the code to better explain what's happening.
 * Compressed the image assets (non-lossy, using MozJPEG and JpegOptim), reducing them by 63.5%
 * Re-wrote this README, adding in additional content and making it a better example of what's required.
+* Added a screenshot.
 
 == Upgrade Notice ==
 
