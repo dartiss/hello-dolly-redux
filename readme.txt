@@ -1,6 +1,6 @@
 === Hello Dolly Redux ===
 Contributors: matt, wordpressdotorg, dartiss
-Tags: market, coverage, share, w3tech, cms
+Tags: dashboard, admin, lyrics, music
 Requires at least: 4.6
 Tested up to: 6.2
 Requires PHP: 7.4
