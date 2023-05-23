@@ -61,34 +61,29 @@ Dolly'll never go away again",
 	);
 
 	// Here we split the above string into individual lines, placing the result into an array.
-
 	$lyrics = explode( "\n", $lyrics );
 
 	// We randomly choose a line to display.
-
 	return wptexturize( $lyrics[ wp_rand( 0, count( $lyrics ) - 1 ) ] );
 }
 
 /**
- * Display lyircs
+ * Displays lyrics.
  *
- * This just echoes the chosen line, we'll position it later.
+ * This just echoes the chosen line, we will position it later.
  */
 function hello_dolly() {
 
 	// Get a random line of the lyric.
-
 	$chosen = hello_dolly_get_lyric();
 
 	// Get the current user's locale.
-
 	$lang = '';
 	if ( 'en_' !== substr( get_user_locale(), 0, 3 ) ) {
 		$lang = ' lang="en"';
 	}
 
 	// Now, output the lyrics, with an appropriate HTML wrapper.
-
 	printf(
 		'<p id="dolly"><span class="screen-reader-text">%s </span><span dir="ltr"%s>%s</span></p>',
 		esc_html__( 'Quote from Hello Dolly song, by Jerry Herman:', 'hello-dolly' ),
@@ -101,10 +96,10 @@ function hello_dolly() {
 add_action( 'admin_notices', 'hello_dolly' );
 
 /**
- * Enqueue CSS
+ * Enqueues CSS.
  *
  * This makes use of the enqueue functions to load the CSS file.
- * We're loading the -min version of the file which is compressed. The non-compressed version of the file is also
+ * We are loading the -min version of the file which is compressed. The non-compressed version of the file is also
  * in the plugin folder, which is more "human readable".
  */
 function dolly_css() {
@@ -113,5 +108,4 @@ function dolly_css() {
 }
 
 // This actions specifies the above function to be called only when loading scripts in admin (not the site's front-end).
-
 add_action( 'admin_enqueue_scripts', 'dolly_css' );
